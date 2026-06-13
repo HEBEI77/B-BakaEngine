@@ -30,12 +30,12 @@ She is not impressed by you. Probably.
 - **Tap escalation** — the more you tap, the more done with you she becomes
 - **Smart battery management** — 60fps normally, throttles to 30fps when battery is low and unplugged. Pauses entirely when screen is off
 - **Async loading** — wallpaper appears instantly, no freezing while assets load
+- **Memory system** — she remembers how often you tap her. Affection (or irritation) persists across reboots
 
 ### Coming Soon
 
 - Gyroscope tilt — parallax effect as you move your phone
 - Voice keyword detection — she hears you
-- Memory system — she remembers how often you tap her. Affection (or irritation) persists across reboots
 - Outfit and expression packs
 - Personality modes
 
