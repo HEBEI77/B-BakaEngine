@@ -48,7 +48,7 @@ Grab the latest APK from [Releases](../../releases).
 **Requirements:**
 - Android 11 or higher (API 30+)
 - ARM64 device
-- ~150MB free storage
+- ~25MB free storage
 
 > Sideloading required — not on Play Store yet. Enable "Install from unknown sources" in your Android settings.
 
