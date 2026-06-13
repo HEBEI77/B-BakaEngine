@@ -7,7 +7,7 @@
 ![Android](https://img.shields.io/badge/Android-11%2B-3DDC84?style=flat-square&logo=android&logoColor=white)
 ![OpenGL ES](https://img.shields.io/badge/OpenGL%20ES-2.0%2F3.0-5586A4?style=flat-square)
 ![Live2D](https://img.shields.io/badge/Live2D-Cubism%205-FF69B4?style=flat-square)
-![License](https://img.shields.io/badge/License-Personal%20Use-lightgrey?style=flat-square)
+![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey?style=flat-square)
 
 </div>
 
@@ -26,17 +26,18 @@ She is not impressed by you. Probably.
 - **Live2D rendering** — smooth, real-time character animation directly on your wallpaper
 - **Tap interaction** — tap her and she reacts. Tap too much and she gets annoyed
 - **Time-aware dialogue** — different responses at 3AM vs 6AM vs noon. She notices
+- **Weather-aware dialogue** — she comments on the weather outside
 - **Tap escalation** — the more you tap, the more done with you she becomes
 - **Smart battery management** — 60fps normally, throttles to 30fps when battery is low and unplugged. Pauses entirely when screen is off
 - **Async loading** — wallpaper appears instantly, no freezing while assets load
 
 ### Coming Soon
-- 🌤️ Weather-aware dialogue — she'll comment on the heat, the rain, whatever's happening outside
-- 📱 Gyroscope tilt — parallax effect as you move your phone
-- 🎙️ Voice keyword detection — she hears you
-- 💾 Memory system — she remembers how often you tap her. Affection (or irritation) persists across reboots
-- 👗 Outfit & expression packs
-- 🎭 Personality modes
+
+- Gyroscope tilt — parallax effect as you move your phone
+- Voice keyword detection — she hears you
+- Memory system — she remembers how often you tap her. Affection (or irritation) persists across reboots
+- Outfit and expression packs
+- Personality modes
 
 ---
 
@@ -101,6 +102,8 @@ No pressure. She would tell you not to bother anyway.
 **Developer:** [BakaDev / HEBEI77](https://github.com/HEBEI77)
 
 **Live2D Sample Model:** Hiyori — © Live2D Inc., used under the [Live2D Free Material License](https://www.live2d.com/en/download/sample-data/)
+
+> This content uses sample data owned and copyrighted by Live2D Inc.
 
 > This project is not affiliated with or endorsed by Live2D Inc.
 
