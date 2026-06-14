@@ -8,6 +8,7 @@
 ![OpenGL ES](https://img.shields.io/badge/OpenGL%20ES-2.0%2F3.0-5586A4?style=flat-square)
 ![Live2D](https://img.shields.io/badge/Live2D-Cubism%205-FF69B4?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.1.0-FF69B4?style=flat-square)
 
 </div>
 
@@ -27,16 +28,19 @@ The only Live2D wallpaper with weather, memory, time-of-day, and seasonal awaren
 - **Weather-aware dialogue:** she comments on the weather outside
 - **Tap escalation:** the more you tap, the more done with you she becomes
 - **Battery efficient:** 0% CPU usage when screen is off. ~5 minutes 19 seconds per 1% battery drain screen-on, running a full Live2D model with physics. Throttles to 30fps when battery is low and unplugged
+- **Gyroscope parallax:** tilt your phone and she drifts with it. Smooth, natural, like she's floating
+- **Battery-aware dialogue:** she reacts to your battery level. Panics at 5%. Judges you at 30%
+- **Background themes:** pick from Pink, Purple, Blue, or Peach in the settings app
 - **Async loading:** wallpaper appears instantly, no freezing while assets load
 - **Memory system:** she remembers how often you tap her. Affection (or irritation) persists across reboots, with natural decay over days
 - **Seasonal & holiday awareness:** dialogue shifts with the month, season, and holidays. She knows what time of year it is
 
 ### Coming Soon
 
-- Gyroscope tilt: parallax effect as you move your phone
 - Voice keyword detection: she hears you
 - Outfit and expression packs
 - Personality modes
+- LLM integration: real responses, not just dialogue arrays
 
 
 ## Download
