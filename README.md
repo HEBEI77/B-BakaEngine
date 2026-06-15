@@ -8,7 +8,7 @@
 ![OpenGL ES](https://img.shields.io/badge/OpenGL%20ES-2.0%2F3.0-5586A4?style=flat-square)
 ![Live2D](https://img.shields.io/badge/Live2D-Cubism%205-FF69B4?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey?style=flat-square)
-![Version](https://img.shields.io/badge/version-1.1.0-FF69B4?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.2.0-FF69B4?style=flat-square)
 
 </div>
 
