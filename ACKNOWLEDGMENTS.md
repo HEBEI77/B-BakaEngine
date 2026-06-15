@@ -40,9 +40,18 @@ Licensed under the [MIT License](https://github.com/g-truc/glm/blob/master/copyi
 
 Weather data is provided by **Open-Meteo**.
 
-Open-Meteo is free for non-commercial use and licensed under
+Open-Meteo is  a free and open weather API licensed under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 API documentation: [open-meteo.com](https://open-meteo.com)
+
+---
+
+## AI Providers
+B-BakaEngine supports multiple AI providers. Users bring their own API keys:
+- **Google Gemini:** "Gemini" is a trademark of Google LLC.
+- **OpenAI:** "OpenAI" and "GPT" are trademarks of OpenAI, Inc.
+- **Anthropic Claude:** "Claude" is a trademark of Anthropic PBC.
+- **Groq:** "Groq" is a trademark of Groq, Inc.
 
 ---
 
