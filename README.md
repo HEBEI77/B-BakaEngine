@@ -40,6 +40,7 @@ The only Live2D wallpaper with weather, memory, time-of-day, and seasonal awaren
 - Voice keyword detection: she hears you
 - Outfit and expression packs
 - Personality modes
+- Custom Background
 - LLM integration: real responses, not just dialogue arrays
 
 
@@ -50,7 +51,7 @@ Grab the latest APK from [Releases](../../releases).
 **Requirements:**
 - Android 11 or higher (API 30+)
 - ARM64 device
-- ~35MB free storage
+- ~40MB free storage
 
 > Sideloading required — not on Play Store yet. Enable "Install from unknown sources" in your Android settings.
 
@@ -76,7 +77,7 @@ Got feedback, found a bug, or just want to hang out?
 B-BakaEngine is free with no ads and will stay that way. If you want to support development:
 
 - **Amazon gift cards** (`.in` — India) sent via Discord DM
-- Global users can purchase Amazon.in gift cards from reputable third-party sources
+- Global users can purchase Amazon.in gift cards from reputable third-party sources (eg: G2C or SEGAM)
 - Find me on the Discord server above
 
 No pressure. She would tell you not to bother anyway.
