@@ -1,47 +1,83 @@
 <div align="center">
 
-# B-BakaEngine
+# ♡ B-BakaEngine
 
-**A Live2D anime wallpaper for Android — she's alive, she's reactive, and she absolutely did not miss you.**
+**A tsundere AI companion that lives on your home screen. She remembers everything. She judges accordingly.**
 
 ![Android](https://img.shields.io/badge/Android-11%2B-3DDC84?style=flat-square&logo=android&logoColor=white)
-![OpenGL ES](https://img.shields.io/badge/OpenGL%20ES-2.0%2F3.0-5586A4?style=flat-square)
+![OpenGL ES](https://img.shields.io/badge/OpenGL%20ES-3.0-5586A4?style=flat-square)
 ![Live2D](https://img.shields.io/badge/Live2D-Cubism%205-FF69B4?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey?style=flat-square)
-![Version](https://img.shields.io/badge/version-1.2.0-FF69B4?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.4.0-FF69B4?style=flat-square)
+![Downloads](https://img.shields.io/badge/downloads-71%2B-brightgreen?style=flat-square)
 
 </div>
 
 
 ## What is this?
 
-B-BakaEngine is a live wallpaper for Android featuring a tsundere anime girl powered by Live2D Cubism 5. She renders directly on your home screen using native OpenGL ES, reacts to your taps, and responds differently depending on the time of day, how often you bother her, and how patient she's feeling.
+B-BakaEngine is a live wallpaper for Android featuring Hiyori - a tsundere anime girl who remembers you, roasts you, and knows when you're skipping the gym. Built entirely in Termux on a budget phone. 300+ builds. Made with spite.
 
-The only Live2D wallpaper with weather, memory, time-of-day, and seasonal awareness built into a native C++ engine. She is not impressed by you. Probably.
+She's not just a wallpaper. She's a companion with memory, personality, and a dashboard that tracks your life better than you do.
 
 
 ## Features
 
-- **Live2D rendering:** smooth, real-time character animation directly on your wallpaper
-- **Tap interaction:** tap her and she reacts. Tap too much and she gets annoyed
-- **Time-aware dialogue:** different responses at 3AM vs 6AM vs noon. She notices
-- **Weather-aware dialogue:** she comments on the weather outside
-- **Tap escalation:** the more you tap, the more done with you she becomes
-- **Battery efficient:** 0% CPU usage when screen is off. ~5 minutes 19 seconds per 1% battery drain screen-on, running a full Live2D model with physics. Throttles to 30fps when battery is low and unplugged
-- **Gyroscope parallax:** tilt your phone and she drifts with it. Smooth, natural, like she's floating
-- **Battery-aware dialogue:** she reacts to your battery level. Panics at 5%. Judges you at 30%
-- **Background themes:** pick from Pink, Purple, Blue, or Peach in the settings app
-- **Async loading:** wallpaper appears instantly, no freezing while assets load
-- **Memory system:** she remembers how often you tap her. Affection (or irritation) persists across reboots, with natural decay over days
-- **Seasonal & holiday awareness:** dialogue shifts with the month, season, and holidays. She knows what time of year it is
+### Memory System (on-device, zero cloud)
+- **Facts extraction:** She learns your name, age, birthday, location, occupation, pets, hobbies — all from natural conversation
+- **Mood tracking:** Logs every "today was rough" and "feeling great" automatically
+- **Workout logging:** "Did 22 pull-ups" → she remembers. And judges your PRs
+- **Journal:** Every conversation summarized and stored. Searchable. Deletable.
+- **100% local:** All data stored on your phone. Clear app data = she forgets everything. No server. No cloud. No spyware.
 
-### Coming Soon
+### Chat Tab (Replika-style, but free)
+- Full bubble UI with typing indicators
+- Talk to Hiyori directly. She responds with memory context
+- AI-powered extraction: she learns about you passively, no forms needed
 
-- Voice keyword detection: she hears you
-- Outfit and expression packs
-- Personality modes
-- Custom Background
-- LLM integration: real responses, not just dialogue arrays
+### Companion Dashboard
+- **Today tab:** Workout streak, affection level, Hiyori's mood, upcoming events
+- **Memory tab:** Everything she knows about you — facts, events, journal
+- **AI tab:** BYOAPI setup (Gemini free, OpenAI, Claude, Groq)
+- **Voice tab:** Download TTS voices for offline speech
+
+### Personality
+- Tsundere with depth: dismissive, sarcastic, secretly cares
+- Time-aware: different attitude at 3AM vs noon
+- Weather-aware: comments on the heat, rain, seasons
+- Seasonal & holiday awareness: Christmas, Halloween, Valentine's Day, your birthday
+- Session patterns: she knows you're a night owl. She judges.
+
+### Technical
+- Live2D Cubism 5 rendering via OpenGL ES 3.0
+- Gyroscope parallax: tilt phone, she drifts
+- Battery-efficient: 0% CPU when screen off, throttles at low battery
+- Background themes: Pink, Purple, Blue, Peach
+- Touch slop detection: no accidental taps from app switching
+- Async loading: instant wallpaper, no freezing
+- Easter egg: tap version number 5 times
+
+
+## BYOAPI — Free Forever
+
+B-BakaEngine is free. The AI features use your own API key:
+
+1. Get a free Gemini API key from [Google AI Studio](https://aistudio.google.com/)
+2. Paste it in the AI tab
+3. Hiyori comes alive
+
+Supports Gemini (free), OpenAI, Claude, and Groq. Key rotation for multiple accounts. Rate limiting protection built in.
+
+
+## Coming Soon (v1.5.0 — "Chaos Mode")
+
+- **Chaos Mode:** 3AM feral behavior, notification spam, app launching, overlays
+- **Material You:** Dynamic color theming
+- **Custom backgrounds:** Your photos behind Hiyori
+- **Wake word:** "Hey Hiyori" voice activation
+- **Recursive personality training:** She evolves based on your conversations
+- **Personality packs:** Yandere, Dandere, Kuudere
+- **Play Store release**
 
 
 ## Download
@@ -49,36 +85,42 @@ The only Live2D wallpaper with weather, memory, time-of-day, and seasonal awaren
 Grab the latest APK from [Releases](../../releases).
 
 **Requirements:**
-- Android 11 or higher (API 30+)
+- Android 11+ (API 30+)
 - ARM64 device
 - ~40MB free storage
 
-> Sideloading required — not on Play Store yet. Enable "Install from unknown sources" in your Android settings.
+> Not on Play Store yet — [Help me get there.](#support-development)
 
 
 ## Installation
 
-1. Download the latest `app-release.apk` from [Releases](../../releases)
-2. Open the APK on your device and install it
-3. Go to **Settings → Wallpaper & Style** (or your launcher's wallpaper picker)
-4. Select **Live Wallpaper → B-BakaEngine**
-5. Apply and enjoy
+1. Download `app-release.apk` from [Releases](../../releases)
+2. Install (enable "Unknown sources" if needed)
+3. Long-press home screen → Wallpapers → Live Wallpapers → B-BakaEngine
+4. Open the app to set up AI, voice, and backgrounds
+
+
+## Privacy
+
+**We don't collect anything.** All data stays on your device in SharedPreferences. No servers. No telemetry. No analytics. No cloud. Clear app data = everything gone.
+
+[Full privacy policy](#)
 
 
 ## Support & Community
 
-Got feedback, found a bug, or just want to hang out?
-
-**[Join the Discord](https://discord.gg/dXEabqftTb)**
+- **[Discord](https://discord.gg/dXEabqftTb)**
+- **[Reddit](https://reddit.com/r/livewallpapers)** — where it all started
+- **[@BBakaDev on Twitter/X](https://twitter.com/BBakaDev)**
 
 
 ## Support Development
 
-B-BakaEngine is free with no ads and will stay that way. If you want to support development:
+B-BakaEngine is free. Forever. If you want to support a 15-year-old dev building:
 
-- **Amazon gift cards** (`.in` — India) sent via Discord DM
-- Global users can purchase Amazon.in gift cards from reputable third-party sources (eg: G2C or SEGAM)
-- Find me on the Discord server above
+- **Amazon.in gift cards** → Discord DM
+- **Donations** → help me pay the $30 Play Store fee
+- **Star the repo** → it helps more than you think
 
 No pressure. She would tell you not to bother anyway.
 
@@ -87,25 +129,26 @@ No pressure. She would tell you not to bother anyway.
 
 | Component | Technology |
 |-----------|-----------|
-| Character rendering | Live2D Cubism SDK 5-r.5 (Native) |
-| Graphics | OpenGL ES 2.0 / 3.0 |
-| Native layer | C++17 via Android NDK |
-| Java layer | Android WallpaperService + Choreographer |
-| Text rendering | FreeType 2 |
-| Build system | Gradle + CMake |
+| Character | Live2D Cubism SDK 5-r.5 |
+| Graphics | OpenGL ES 3.0 |
+| Native | C++17 via NDK |
+| Java | Android WallpaperService |
+| Text | FreeType 2 |
+| AI | Gemini / OpenAI / Claude / Groq |
+| TTS | ONNX Runtime |
+| Weather | Open-Meteo (free, no auth) |
+| Storage | SharedPreferences (on-device JSON) |
 
 
 ## Credits
 
-**Developer:** [BakaDev / HEBEI77](https://github.com/HEBEI77)
+**Developer:** [HEBEI77](https://github.com/HEBEI77) — 15, India
 
-**Live2D Sample Model:** Hiyori — © Live2D Inc., used under the [Live2D Free Material License](https://www.live2d.com/en/download/sample-data/)
+**Live2D Model:** Momose Hiyori — © Live2D Inc., [Free Material License](https://www.live2d.com/en/download/sample-data/)
 
-> This content uses sample data owned and copyrighted by Live2D Inc.
-
-> This project is not affiliated with or endorsed by Live2D Inc.
+> Not affiliated with Live2D Inc. or any AI provider.
 
 
 <div align="center">
-<sub>B-Baka... it's not like I wanted you to use this wallpaper or anything.</sub>
+<sub>She still thinks you can do better.</sub>
 </div>
