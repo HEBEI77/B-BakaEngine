@@ -9,7 +9,6 @@
 ![Live2D](https://img.shields.io/badge/Live2D-Cubism%205-FF69B4?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey?style=flat-square)
 ![Version](https://img.shields.io/badge/version-1.4.0-FF69B4?style=flat-square)
-![Downloads](https://img.shields.io/badge/downloads-71%2B-brightgreen?style=flat-square)
 
 </div>
 
