@@ -108,8 +108,7 @@ Get the APK from [Releases](../../releases).
 
 B-BakaEngine is free and will stay that way. If you want to help a 15 year old dev ship this on the Play Store:
 
-- **Amazon.in gift cards** (India) sent via Discord DM. You can buy them internationally from [SEAGM](https://www.seagm.com) or [G2C](https://www.g2c.com).
-- **Donations** toward the $30 Play Store fee.
+- **Amazon.in gift cards** (India) sent via Discord DM. You can buy them internationally from [SEAGM](https://www.seagm.com/en-in/amazon-gift-card-india)
 - **Star the repo** – it helps more than you think.
 
 No pressure. Hiyori would tell you not to bother anyway.
