@@ -16,9 +16,9 @@
 
 ## What is this?
 
-B-BakaEngine is a live wallpaper for Android featuring Hiyori - a tsundere anime girl who remembers you, roasts you, and knows when you're skipping the gym. Built entirely in Termux on a budget phone. 300+ builds. Made with spite.
+B-BakaEngine is a live wallpaper for Android featuring Hiyori - a tsundere anime girl who remembers you, roasts you, and knows when you're skipping the gym.
 
-She's not just a wallpaper. She's a companion with memory, personality, and a dashboard that tracks your life better than you do.
+She's not just a wallpaper. She's a companion with memory, personality, and a dashboard that tracks your life better than you do, Probably.
 
 
 ## Features
@@ -30,14 +30,14 @@ She's not just a wallpaper. She's a companion with memory, personality, and a da
 - **Journal:** Every conversation summarized and stored. Searchable. Deletable.
 - **100% local:** All data stored on your phone. Clear app data = she forgets everything. No server. No cloud. No spyware.
 
-### Chat Tab (Replika-style, but free)
+### Chat Tab
 - Full bubble UI with typing indicators
 - Talk to Hiyori directly. She responds with memory context
 - AI-powered extraction: she learns about you passively, no forms needed
 
 ### Companion Dashboard
 - **Today tab:** Workout streak, affection level, Hiyori's mood, upcoming events
-- **Memory tab:** Everything she knows about you — facts, events, journal
+- **Memory tab:** Everything she knows about you. facts, events, journal
 - **AI tab:** BYOAPI setup (Gemini free, OpenAI, Claude, Groq)
 - **Voice tab:** Download TTS voices for offline speech
 
@@ -55,7 +55,6 @@ She's not just a wallpaper. She's a companion with memory, personality, and a da
 - Background themes: Pink, Purple, Blue, Peach
 - Touch slop detection: no accidental taps from app switching
 - Async loading: instant wallpaper, no freezing
-- Easter egg: tap version number 5 times
 
 
 ## BYOAPI — Free Forever
@@ -77,7 +76,6 @@ Supports Gemini (free), OpenAI, Claude, and Groq. Key rotation for multiple acco
 - **Wake word:** "Hey Hiyori" voice activation
 - **Recursive personality training:** She evolves based on your conversations
 - **Personality packs:** Yandere, Dandere, Kuudere
-- **Play Store release**
 
 
 ## Download
@@ -104,13 +102,10 @@ Grab the latest APK from [Releases](../../releases).
 
 **We don't collect anything.** All data stays on your device in SharedPreferences. No servers. No telemetry. No analytics. No cloud. Clear app data = everything gone.
 
-[Full privacy policy](#)
-
 
 ## Support & Community
 
 - **[Discord](https://discord.gg/dXEabqftTb)**
-- **[Reddit](https://reddit.com/r/livewallpapers)** — where it all started
 - **[@BBakaDev on Twitter/X](https://twitter.com/BBakaDev)**
 
 
