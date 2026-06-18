@@ -2,7 +2,7 @@
 
 # ♡ B-BakaEngine
 
-**A tsundere AI companion that lives on your home screen. She remembers everything. She judges accordingly.**
+**A tsundere anime girl lives on your home screen. She remembers everything. She judges accordingly.**
 
 ![Android](https://img.shields.io/badge/Android-11%2B-3DDC84?style=flat-square&logo=android&logoColor=white)
 ![OpenGL ES](https://img.shields.io/badge/OpenGL%20ES-3.0-5586A4?style=flat-square)
@@ -16,91 +16,87 @@
 
 ## What is this?
 
-B-BakaEngine is a live wallpaper for Android featuring Hiyori - a tsundere anime girl who remembers you, roasts you, and knows when you're skipping the gym.
-
-She's not just a wallpaper. She's a companion with memory, personality, and a dashboard that tracks your life better than you do, Probably.
+B-BakaEngine is a live wallpaper for Android. Hiyori, a tsundere anime girl, lives on your home screen. She remembers what you tell her, tracks your mood and workouts, and isn't afraid to call you out. No accounts. No cloud. Just her, on your phone, remembering.
 
 
 ## Features
 
-### Memory System (on-device, zero cloud)
-- **Facts extraction:** She learns your name, age, birthday, location, occupation, pets, hobbies — all from natural conversation
-- **Mood tracking:** Logs every "today was rough" and "feeling great" automatically
-- **Workout logging:** "Did 22 pull-ups" → she remembers. And judges your PRs
-- **Journal:** Every conversation summarized and stored. Searchable. Deletable.
-- **100% local:** All data stored on your phone. Clear app data = she forgets everything. No server. No cloud. No spyware.
+### Memory that stays on your phone
+- She learns your name, age, birthday, location, hobbies, pets. All from natural conversation.
+- Every "today was rough" or "feeling great" is saved. She notices patterns.
+- Mention a workout and she logs it. "Did 22 pull ups" becomes part of her memory. She will bring it up later.
+- Every conversation is saved as a journal entry. You can see it, search it, delete it.
+- Clear the app data and she forgets everything. No trace left.
 
-### Chat Tab
-- Full bubble UI with typing indicators
-- Talk to Hiyori directly. She responds with memory context
-- AI-powered extraction: she learns about you passively, no forms needed
+### Chat that feels real
+- Full bubble chat with typing indicators.
+- Talk to her directly. She replies using what she knows about you.
+- No forms. She extracts details just by listening.
 
-### Companion Dashboard
-- **Today tab:** Workout streak, affection level, Hiyori's mood, upcoming events
-- **Memory tab:** Everything she knows about you. facts, events, journal
-- **AI tab:** BYOAPI setup (Gemini free, OpenAI, Claude, Groq)
-- **Voice tab:** Download TTS voices for offline speech
+### Dashboard that tracks your life
+- **Today:** Workout streak, affection level, her mood, upcoming events.
+- **Memory:** Everything she knows. Facts, events, journal.
+- **AI:** Connect your own API key (Gemini free, OpenAI, Claude, Groq).
+- **Voice:** Download TTS voices and she'll speak offline.
 
-### Personality
-- Tsundere with depth: dismissive, sarcastic, secretly cares
-- Time-aware: different attitude at 3AM vs noon
-- Weather-aware: comments on the heat, rain, seasons
-- Seasonal & holiday awareness: Christmas, Halloween, Valentine's Day, your birthday
-- Session patterns: she knows you're a night owl. She judges.
+### Personality that bites
+- Tsundere to the core: dismissive, sarcastic, secretly invested.
+- Acts differently at 3 AM vs noon. Weather changes her mood.
+- Notices holidays, seasons, even your birthday.
+- Knows your patterns. Night owl? She'll comment on it.
 
-### Technical
-- Live2D Cubism 5 rendering via OpenGL ES 3.0
-- Gyroscope parallax: tilt phone, she drifts
-- Battery-efficient: 0% CPU when screen off, throttles at low battery
-- Background themes: Pink, Purple, Blue, Peach
-- Touch slop detection: no accidental taps from app switching
-- Async loading: instant wallpaper, no freezing
+### Under the hood
+- Live2D Cubism 5 rendered with OpenGL ES 3.0.
+- Phone tilt moves her. She drifts like she's there.
+- Stops completely when screen off. Throttles at low battery.
+- Pink, Purple, Blue, Peach backgrounds.
+- No accidental taps from app switching. Only deliberate pokes count.
 
 
-## BYOAPI — Free Forever
+## BYOAPI – Free Forever
 
-B-BakaEngine is free. The AI features use your own API key:
+The app is free. All AI needs is a key you bring:
 
-1. Get a free Gemini API key from [Google AI Studio](https://aistudio.google.com/)
-2. Paste it in the AI tab
-3. Hiyori comes alive
+1. Get a free Gemini key from [Google AI Studio](https://aistudio.google.com/)
+2. Paste it in the AI tab.
+3. Hiyori wakes up.
 
-Supports Gemini (free), OpenAI, Claude, and Groq. Key rotation for multiple accounts. Rate limiting protection built in.
+Works with Gemini, OpenAI, Claude, Groq. Multiple keys rotate automatically. Rate limits are handled.
 
 
-## Coming Soon (v1.5.0 — "Chaos Mode")
+## Coming Soon (v1.5.0 – "Chaos Mode")
 
-- **Chaos Mode:** 3AM feral behavior, notification spam, app launching, overlays
-- **Material You:** Dynamic color theming
-- **Custom backgrounds:** Your photos behind Hiyori
-- **Wake word:** "Hey Hiyori" voice activation
-- **Recursive personality training:** She evolves based on your conversations
-- **Personality packs:** Yandere, Dandere, Kuudere
+- Chaos Mode: 3 AM feral behavior, overlays, app launching, notifications.
+- Material You dynamic theming.
+- Set your own photos behind her.
+- "Hey Hiyori" voice activation.
+- Personality that evolves the more you talk.
+- Yandere, Dandere, Kuudere personality packs.
 
 
 ## Download
 
-Grab the latest APK from [Releases](../../releases).
+Get the APK from [Releases](../../releases).
 
 **Requirements:**
 - Android 11+ (API 30+)
 - ARM64 device
 - ~40MB free storage
 
-> Not on Play Store yet — [Help me get there.](#support-development)
+> Not on Play Store yet. [Help me get there.](#support-development)
 
 
 ## Installation
 
-1. Download `app-release.apk` from [Releases](../../releases)
-2. Install (enable "Unknown sources" if needed)
-3. Long-press home screen → Wallpapers → Live Wallpapers → B-BakaEngine
-4. Open the app to set up AI, voice, and backgrounds
+1. Download `app-release.apk` from [Releases](../../releases).
+2. Install (allow unknown sources if prompted).
+3. Long press home screen → Wallpapers → Live Wallpapers → B-BakaEngine.
+4. Open the app to configure AI, voice, and themes.
 
 
 ## Privacy
 
-**We don't collect anything.** All data stays on your device in SharedPreferences. No servers. No telemetry. No analytics. No cloud. Clear app data = everything gone.
+**We don't collect anything.** Everything lives on your phone inside SharedPreferences. No servers. No telemetry. No analytics. No cloud. Wipe app data and she forgets everything. That's the whole policy.
 
 
 ## Support & Community
@@ -111,13 +107,13 @@ Grab the latest APK from [Releases](../../releases).
 
 ## Support Development
 
-B-BakaEngine is free. Forever. If you want to support a 15-year-old dev building:
+B-BakaEngine is free and will stay that way. If you want to help a 15 year old dev ship this on the Play Store:
 
-- **Amazon.in gift cards** → Discord DM
-- **Donations** → help me pay the $30 Play Store fee
-- **Star the repo** → it helps more than you think
+- **Amazon.in gift cards** (India) sent via Discord DM. You can buy them internationally from [SEAGM](https://www.seagm.com) or [G2C](https://www.g2c.com).
+- **Donations** toward the $30 Play Store fee.
+- **Star the repo** – it helps more than you think.
 
-No pressure. She would tell you not to bother anyway.
+No pressure. Hiyori would tell you not to bother anyway.
 
 
 ## Technical Stack
@@ -132,14 +128,14 @@ No pressure. She would tell you not to bother anyway.
 | AI | Gemini / OpenAI / Claude / Groq |
 | TTS | ONNX Runtime |
 | Weather | Open-Meteo (free, no auth) |
-| Storage | SharedPreferences (on-device JSON) |
+| Storage | SharedPreferences (on device JSON) |
 
 
 ## Credits
 
-**Developer:** [HEBEI77](https://github.com/HEBEI77) — 15, India
+**Developer:** [HEBEI77](https://github.com/HEBEI77) – 15, India, built in Termux.
 
-**Live2D Model:** Momose Hiyori — © Live2D Inc., [Free Material License](https://www.live2d.com/en/download/sample-data/)
+**Live2D Model:** Momose Hiyori – © Live2D Inc., [Free Material License](https://www.live2d.com/en/download/sample-data/)
 
 > Not affiliated with Live2D Inc. or any AI provider.
 
