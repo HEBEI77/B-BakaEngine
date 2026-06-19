@@ -96,7 +96,7 @@ Get the APK from [Releases](../../releases).
 ## Privacy
 
 **We don't collect anything.** Everything lives on your phone inside SharedPreferences. No servers. No telemetry. No analytics. No cloud. Wipe app data and she forgets everything. That's the whole policy.
-
+**We do NOT allow ANY type of ERP** (Erotica roleplay) 
 
 ## Support & Community
 
